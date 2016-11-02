@@ -1,4 +1,5 @@
-cd ~/Dropbox/pennwoodpto/
+BASEDIR=$(dirname "$0")
+cd $BASEDIR
 
 echo Adding changed files...
 git add .
