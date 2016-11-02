@@ -1,0 +1,166 @@
+body {
+	background: grey;
+}
+#PTO *
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 1.5em;
+}
+
+#PTO {
+	width: 80%;
+	margin: auto;
+	background: white;
+}
+
+#PTO a
+{
+	color: #F60;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#PTO h1
+{
+	font-size: 20pt;
+	text-align: center;
+}
+
+#PTO h2
+{
+	font-size: 11pt;
+	text-align: center;
+}
+
+#PTO h3
+{
+	margin: 0;
+	color: #F60;	
+	background: #000;
+	text-align: center;
+	padding: 8pt;
+	font-size: 16pt;
+	text-transform: uppercase;
+}
+
+#PTO h4
+{
+	color: #000;	
+	background: #F60;
+	text-align: center;
+	padding: 6pt;
+	margin: 0pt;
+	font-size: 12pt;
+}
+
+#PTO h5
+{
+	color: #F60;	
+	text-align: center;
+	font-size: 12pt;
+}
+
+#PTO h6
+{
+	margin: 0;
+	font-size: 12pt;
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	background: none;
+}
+
+#PTO table
+{
+	width: 100%;
+}
+
+#PTO td
+{
+	vertical-align: top;
+}
+
+#PTO img
+{
+	margin: 10pt;
+}
+
+#PTO hr
+{
+  border: 8px solid black;
+}
+
+#PTO li
+{
+	padding: 0.5em 0.25em;
+}
+
+#PTO .References li
+{
+	padding: 0.15em;
+}
+
+#PTO .Section
+{
+	padding: 5pt;
+}
+
+#PTO .Col2Layout
+{
+	border-collapse: collapse;
+}
+#PTO .Col2Layout td
+{
+	border: 1px solid black;
+}
+#PTO .Col3Layout td
+{
+	width: 33%;
+}
+
+#PTO .Col3Layout td:nth-child(2)
+{
+	background: #F0F0F0;
+}
+
+#PTO .Alert
+{
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;	margin: 15px;
+	background: #FFC;
+}
+#PTO .Alert div
+{
+	background: #F60;
+	border: 1px solid black;
+}
+
+#PTO .Calendar
+{
+	padding: 1em;
+}
+#PTO .Calendar p
+{
+	padding-left: 75px ;
+	text-indent: -75px ;
+}
+
+#PTO .Calendar p > b
+{
+	width: 75px;
+	float: left;
+}
+
+#PTO .References
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+
+#PTO .Facebook
+{
+	width: 100pt;
+}

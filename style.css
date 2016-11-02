@@ -1,0 +1,30 @@
+#PTO #EBLAST *,
+#PTO #MEMBERSHIP *,
+#PTO #HELP *,
+#PTO #INFO *,
+#PTO #SCHEDULE *,
+#PTO #EXECBOARD *,
+#PTO #FUNDING *
+{
+	text-align: center;
+}
+
+#PTO #FUNDING td.Section
+{
+	border: 1px solid black;
+}
+
+#PTO #FUNDING img
+{
+	max-width: 150px;
+	max-height: 120px;
+}
+
+
+#PTO #BANNER
+{
+	position: relative;
+	left: -80px;
+	text-align: center;
+}
+
