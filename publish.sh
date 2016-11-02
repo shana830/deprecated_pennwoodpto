@@ -10,3 +10,4 @@ git commit -m "automated publish"
 echo Pushing changes to server..
 git push
 echo done
+exit 0
