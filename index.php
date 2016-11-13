@@ -12,7 +12,7 @@ $path = ".";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
-    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
+    if($file != "build.command" && $file != ".DS_Store" && $file != "." && $file != ".." && $file != "index.html" && $file != "index.php" && $file != "build.sh" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
         echo "<li><a href='$path/$file'>$file</a></li>";
         $i++;
     }
