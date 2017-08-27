@@ -4,7 +4,9 @@
 #PTO #INFO *,
 #PTO #SCHEDULE *,
 #PTO #EXECBOARD *,
-#PTO #FUNDING *
+#PTO #FUNDING *,
+#PTO #HEADER *,
+#PTO #FOOTER *
 {
 	text-align: center;
 }
@@ -21,10 +23,26 @@
 }
 
 
-#PTO #BANNER
+#PTO #BANNER, #PTO #HEADER
 {
 	position: relative;
-	left: -80px;
+	/* left: -80px; */
 	text-align: center;
 }
 
+#MENU
+{
+	position: fixed;
+	padding: 20px 10;
+	border-radius: 300px;
+	background: #000;
+	border: 2px solid #F60;
+}
+#MENU * {
+	text-decoration: none;
+	color: #FFF;
+	font-family: arial, helvetica, sans-serif;
+	letter-spacing: 3px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
