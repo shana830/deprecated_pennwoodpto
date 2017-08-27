@@ -33,8 +33,8 @@
 #MENU
 {
 	position: fixed;
-	padding: 20px 10;
-	border-radius: 300px;
+	padding: 10px;
+	border-radius: 3px;
 	background: #000;
 	border: 2px solid #F60;
 }
