@@ -33,16 +33,26 @@
 #MENU
 {
 	position: fixed;
-	padding: 30px 10px;
+}
+
+#MENU a
+{
+	padding: 20px;
 	border-radius: 300px;
 	background: #000;
+	display: block;
 	border: 2px solid #F60;
+	margin: 10px;
 }
-#MENU * {
+#MENU a * {
 	text-decoration: none;
 	color: #FFF;
 	font-family: arial, helvetica, sans-serif;
 	letter-spacing: 3px;
 	font-size: 12px;
 	text-transform: uppercase;
+}
+#MENU img
+{
+	width: 32px;	
 }
